@@ -15,15 +15,16 @@ function updateThree(){
     document.getElementById('be2').innerHTML = "What Threatens Bees?";
 }
 function updateFour(){
-    document.getElementById('output').innerHTML = "A young German physicist, Hans von Ohain, worked for Ernst Heinkel, specializing in advanced engines, to develop the world's first jet plane, the experimental Heinkel He 178. I was the first jet-powered aircraft, it flew on Aug. 27, 1939, nearly two years before its British equivalent, the Gloster E. 28/39";
-    document.getElementById('img').src="img/plane1.webp";
+    document.getElementById('output').innerHTML = "Protecting bees is crucial, there are several ways you can contribute to bee conservation efforts. Firstly, you can refrain from using pesticides and herbicides in your garden or opt for organic alternatives. Additionally, you can plant bee-friendly flowers and herbs to provide them with a nutritious food source. Creating bee-friendly habitats by leaving wild areas in gardens or supporting local beekeeping initiatives also plays a significant role. Lastly, raising awareness about the importance of bees and advocating for policies that protect their habitats and health are essential steps in portecting bees. By taking these actions, you can contribute to the preservation of bee populations and help ensure the health of ecosystems worldwide.";
+    document.getElementById('img').src="img/b3.png";
+    document.getElementById('be2').innerHTML = "How can you help?";
 }
 function updateFive(){
-    document.getElementById('output').innerHTML = "The Mariner 2 spacecraft was launched by NASA from Cape Canaveral on August 27, 1962, and passed as close as 34,773 kilometers (21,607 mi) to Venus on December 14, 1962.";
-    document.getElementById('img').src="img/launch1.webp";
-}
-function updateSix(){
-    document.getElementById('output').innerHTML = "On August 27, 1833, Krakatoa erupts in a series of violent explosions. Causing tidal waves up to 120 ft. high.";
-    document.getElementById('img').src="img/volc1.jpg";
+    document.getElementById('output').innerHTML = "Getting involved in protecting bees can be as simple as making conscious choices in everyday activities. You can provide a safe haven for bees to forage and nest. Supporting local beekeepers by purchasing their products and spreading awareness about the importance of bees in your community also helps. Additionally, you can advocate for policies that protect bee habitats and regulate harmful pesticides. By participating in these efforts, you contribute to the collective endeavor of safeguarding bee populations and preserving biodiversity.";
+    document.getElementById('img').src="img/b4.png";
+    document.getElementById('be2').innerHTML = "How can you get involved?";
 }
 
+function alertone() {
+    alert ("Did you know? A single bee can visit up to 100 flowers in a single trip!");
+  }
